@@ -16,7 +16,7 @@ npm install markdown-resume-pdf --save
 
 ```js
 const path = require('path')
-const markdownResume = require('../lib/index.js')
+const markdownResume = require('markdown-resume-pdf')
 
 markdownResume('./my-resume.md', {
   html: true, // generate the html file, default false
