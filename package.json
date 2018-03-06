@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Write a resume with markdown and generate to html or pdf.",
+  "main": "index.js",
+  "scripts": {
+    "html": "node build/gen-html.js",
+    "pdf": "node build/gen-pdf.js"
+  },
+  "keywords": [
+    "resume",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-pdf-chrome": "^0.4.3",
+    "markdown-it": "^8.4.1",
+    "ora": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
