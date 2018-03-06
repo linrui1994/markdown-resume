@@ -1,18 +1,22 @@
 {
-  "name": "resume",
+  "name": "markdown-resume-pdf",
   "version": "1.0.0",
   "description": "Write a resume with markdown and generate to html or pdf.",
   "main": "index.js",
   "scripts": {
-    "html": "node build/gen-html.js",
+    "example": "node example/index.js",
     "pdf": "node build/gen-pdf.js"
   },
   "keywords": [
     "resume",
     "markdown"
   ],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linrui1994/markdown-resume.git"
+  },
+  "author": "steins",
+  "license": "MIT",
   "dependencies": {
     "html-pdf-chrome": "^0.4.3",
     "markdown-it": "^8.4.1",

@@ -1,15 +1,26 @@
 ## markdown-resume
 
-#### Write a resume with markdown and generate to html or pdf
+> Write a resume with markdown and generate to html or pdf
 
-#### start
+> use github markdown theme
+
+#### usage
+
+> install
 
 ```bash
-# generate html
-npm run html
+npm install markdown-resume-pdf --save
 ```
 
-```bash
-# generate pdf
-npm run pdf
+> get start
+
+```js
+const path = require('path')
+const markdownResume = require('../lib/index.js')
+
+markdownResume('./my-resume.md', {
+  html: true, // generate the html file, default false
+  pdf: true, // generate the pdf file, default true
+  output: path.resolve(__dirname, 'resume')
+})
 ```

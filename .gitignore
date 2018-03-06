@@ -14,5 +14,5 @@ dist
 lib/*.tgz
 .vscode
 stats.json
-resume.pdf
-resume.html
+example/resume.pdf
+example/resume.html
