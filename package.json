@@ -1,6 +1,6 @@
 {
   "name": "markdown-resume-pdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Write a resume with markdown and generate to html or pdf.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "html-pdf-chrome": "^0.4.3",
+    "js-beautify": "^1.7.5",
     "markdown-it": "^8.4.1",
     "ora": "^2.0.0"
   },
