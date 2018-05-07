@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "example": "node example/index.js",
-    "pdf": "node build/gen-pdf.js"
+    "pdf": "node build/gen-pdf.js",
+    "resume": "node resume/index.js"
   },
   "keywords": [
     "resume",
@@ -18,9 +19,13 @@
   "author": "steins",
   "license": "MIT",
   "dependencies": {
+    "github-markdown-css": "^2.10.0",
     "html-pdf-chrome": "^0.4.3",
     "js-beautify": "^1.7.5",
+    "markdown-air": "^0.0.4",
     "markdown-it": "^8.4.1",
+    "markdown-retro": "^0.0.1",
+    "markdown-splendor": "^1.0.1",
     "ora": "^2.0.0"
   },
   "devDependencies": {
