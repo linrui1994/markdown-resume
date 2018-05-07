@@ -52,4 +52,4 @@
 
 > 优势：热爱技术、热爱开源、优秀的学习能力与逻辑思维
 
-> 规划：不断学习各种技术、参与开源项目，曾为[AT-UI](https://github.com/AT-UI/at-ui/pull/96)贡献代码，最近主要关注mpvue，[mpvue的贡献者](https://github.com/mpvue/mpvue-loader/pulls)
+> 规划：不断学习各种技术、参与开源项目，曾为[AT-UI](https://github.com/AT-UI/at-ui/pull/96)贡献代码，最近主要关注[mpvue](https://github.com/mpvue)，是mpvue的成员、贡献者
