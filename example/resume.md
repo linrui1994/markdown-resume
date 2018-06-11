@@ -34,7 +34,7 @@
 
 - 单元测试: 基于chai和mocha编写组件的单元测试。
 
-- 手脚架: 基于webpack，内置ts、es6、scss等支持，引入happypack、dll等加速构建，另外还包括图片压缩、preload等，支持零配置启动。
+- 手脚架: 基于webpack，内置ts、es6、scss等支持，引入happypack、dll等加速构建，另外还包括图片压缩等，支持零配置启动。
 
 ##### 深圳梦之舵信息技术公司（2017.03 - 2017.11）
 
