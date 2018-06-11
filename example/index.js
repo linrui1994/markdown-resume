@@ -3,5 +3,6 @@ const markdownResume = require('../lib/index.js')
 
 markdownResume(path.resolve(__dirname, 'resume.md'), {
   html: true,
-  theme: 'air'
+  theme: 'github',
+  output: './example'
 })
